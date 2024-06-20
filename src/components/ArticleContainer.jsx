@@ -5,7 +5,7 @@ import img3 from '../assets/images/image-gaming-growth.jpg'
 
 export const ArticleContainer = () => {
   return (
-   <section className="mt-6 sm:flex">
+   <section className="mt-6 sm:flex md:flex-wrap md:gap-10">
     <Article 
     img={img1}
     num='01'
